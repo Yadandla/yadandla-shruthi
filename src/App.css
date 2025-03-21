@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Satoshi", "sans-serif";
+    --color-text1: #f9c22e;
+    --drop-shadow-2xl: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --drop-shadow-3xl: 0px 0px 5px #f9c22e;
+    --drop-shadow-4xl: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --breakpoint-*: initial;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    /* --background-bg-conic: conic-gradient(from var(--angle), transparent 70%, blue); */
+
+    /* @keyframes wiggle {
+
+        0%,
+        100% {
+            transform: rotate(-3deg);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+    }
+
+    */
+}
+
+/* Parent div or child div */
+/* @layer components {
+    .prof-info>div {
+        @apply mr-2 text-amber-200
+    }
+} */
+
+/* Any html elements or tags */
+@layer base {
+    h1 {
+        @apply text-4xl pb-5 text-text1 font-bold relative after:absolute after:content-["_"] after:w-16 after:h-[1px] after:bg-white after:top-12 after:left-0 after:rounded
+    }
+
+    h2 {
+        @apply font-bold
+    }
+
+}
+
+/* Give a name[flex-center] to apply common styles in order to repeat the styles repeatedly*/
+@utility flex-center {
+    @apply flex justify-between items-start
+}
+
+@utility first-div {
+    @apply px-5 lg:py-5 md:pt-18 md:pb-24 max-sm:pt-14 max-sm:pb-24 min-h-screen max-w-full bg-[#000];
+}
+
+@layer components {
+    .prof-info>div {
+        @apply flex justify-start items-baseline text-white gap-3 py-3
+    }
+
+    .nav-links li .active {
+        @apply text-white flex justify-center items-center flex-col
+    }
+
+    .nav-links li .icon {
+        @apply block -translate-y-3 transition-all duration-700 lg:text-4xl md:text-4xl max-sm:text-3xl md:relative md:top-[12px]
+    }
+
+    .nav-links li {
+        @apply relative
+    }
+
+    .nav-links li .nav {
+        @apply w-[30px] h-[30px]
+    }
+
+    .nav-links li .nav::after {
+        @apply absolute content-['_'] w-[50px] h-[50px] -z-[1] bg-transparent lg:border-4 border-[#f9c22e33] lg:animate-spin md:animate-none rounded-lg
+    }
+
+    .nav-links li .text {
+        @apply absolute translate-y-2 opacity-0 transition-all duration-700 invisible
+    }
+
+    .nav-links li .active .icon {
+        @apply -translate-y-5 text-2xl pt-1 top-0
+    }
+
+    .nav-links li .active .text {
+        @apply lg:translate-y-3 md:translate-y-3 max-sm:translate-y-1.5 opacity-[1] visible
+    }
+
+    .nav-links li .nav-item {
+        @apply text-text1 flex justify-center items-center flex-col
+    }
+
+    .space {
+        @apply py-5
+    }
+
+    .space p {
+        @apply text-white
+    }
+
+    .about p {
+        @apply pb-5
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.drop {
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+
+.anim {
+    width: 10em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s linear infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10rem;
+    }
+}
+
+/* .nav-links li .active::after, .nav-links li .active::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: conic-gradient(from var(--angle), transparent 70%, blue);
+    z-index: -1;
+    padding: 1rem;
+    animation: rotate 4s linear infinite;
+}
+
+.nav-links li .active::before {
+    filter: blur(1.5rem);
+    opacity: 0.5rem;
+}
+
+@keyframes rotate {
+    0% {
+        --angle: 0deg;
+    }
+
+    25% {
+        --angle: 30deg;
+    }
+
+    45% {
+        --angle: 60deg;
+    }
+
+    65% {
+        --angle: 160deg;
+    }
+
+    85% {
+        --angle: 260deg;
+    }
+
+    100% {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+} */
