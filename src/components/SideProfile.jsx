@@ -8,7 +8,7 @@ const SideProfile = () => {
     const [sideBarOpen, setSideBarOpen] = useState(false);
 
     return (
-        <div className='bg-black p-6 max-sm:p-0 md:p-0 lg:p-6 fixed top-0 left-0 lg:h-full lg:w-[25%] overflow-auto md:overflow-hidden  max-sm:overflow-hidden md:w-full md:z-[3] md:border-b-2 md:border-[#f9c22e24] max-sm:w-full max-sm:border-b-2 max-sm:border-[#f9c22e24] max-sm:block max-sm:z-[2]'>
+        <div className='bg-black p-6 max-sm:p-0 md:p-0 lg:p-6 fixed top-0 left-0 lg:h-full lg:w-[25%] overflow-auto md:overflow-hidden  max-sm:overflow-hidden md:w-full md:z-[3] lg:border-r-2 lg:border-[#f9c22e24] md:border-b-2 md:border-[#f9c22e24] max-sm:w-full max-sm:border-b-2 max-sm:border-[#f9c22e24] max-sm:block max-sm:z-[2]'>
 
             {/* cursor trail starts */}
             <div className='text-right lg:hidden md:block max-sm:block'>
