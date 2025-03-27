@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 @import "tailwindcss";
+
+body {
+    font-family: "Lato", sans-serif;
+}
 
 @theme {
     --font-display: "Satoshi", "sans-serif";
@@ -106,6 +112,14 @@
 
     .about p {
         @apply pb-5
+    }
+
+    .hide-link {
+        @apply bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 transition-all duration-700 lg:scale-75 group-hover:scale-100 lg:z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:h-14 md:top-39 md:justify-between md:items-center md:flex-row md:rounded-t-none md:z-[1] max-sm:opacity-100 max-sm:h-14 max-sm:top-39 max-sm:justify-between max-sm:items-center max-sm:flex-row max-sm:rounded-t-none max-sm:z-[1]
+    }
+
+    .hide-link a {
+        @apply bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer
     }
 }
 
