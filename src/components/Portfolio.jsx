@@ -12,10 +12,10 @@ const Portfolio = () => {
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8' id="prof">
 
                     {/* Project - 1 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/pidata.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>PiDatacenters</h3>
                                 <div>
                                     <a href="https://pidatacenters.com/" target='_blank' className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -26,10 +26,10 @@ const Portfolio = () => {
                     {/* Project - 1 ends */}
 
                     {/* Project - 2 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/picloud.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Pi Cloud</h3>
                                 <div>
                                     <a href="https://picloud.ai/" target='_blank' className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -50,10 +50,10 @@ const Portfolio = () => {
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8' id="personal">
 
                     {/* Project - 3 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/note-cards.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Save Notes</h3>
                                 <div>
                                     <a href="https://save-notes-neon.vercel.app/" target="_blank" className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -64,10 +64,10 @@ const Portfolio = () => {
                     {/* Project - 3 ends */}
 
                     {/* Project - 4 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/leetcode.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Leetcode Stats</h3>
                                 <div>
                                     <a href="https://leetcode-stats-card.vercel.app/" target="_blank" className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -78,10 +78,10 @@ const Portfolio = () => {
                     {/* Project - 4 ends */}
 
                     {/* Project - 5 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/sparkle.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Sparkle Salon</h3>
                                 <div>
                                     <a href="https://yadandla.github.io/sparklesalon/" target="_blank" className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -92,10 +92,10 @@ const Portfolio = () => {
                     {/* Project - 5 ends */}
 
                     {/* Project - 6 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/trendsu.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Ecommerce</h3>
                                 <div>
                                     <a href="https://yadandla.github.io/shopping-site/" target="_blank" className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -106,10 +106,10 @@ const Portfolio = () => {
                     {/* Project - 6 ends */}
 
                     {/* Project - 7 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/calculator.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>Calculator</h3>
                                 <div>
                                     <a href="https://yadandla.github.io/simple-calculator/" target="_blank" className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>view</a>
@@ -120,10 +120,10 @@ const Portfolio = () => {
                     {/* Project - 7 ends */}
 
                     {/* Project - 8 starts */}
-                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl'>
+                    <div className='relative group rounded-lg drop-shadow-2xl hover:drop-shadow-3xl md:border-2 max-sm:border-2 border-white'>
                         <div className='overflow-hidden w-full h-full rounded-lg'>
                             <img className='lg:w-96 lg:h-40 md:w-full md:h-44 scale-100 group-hover:scale-110 transition-all duration-700' src="/images/todo-list.png" alt="profile" />
-                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-0 invisible group-hover:visible transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3'>
+                            <div className='bg-[#000000db] absolute left-0 top-0 overflow-hidden rounded-lg w-full h-full opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-700 group-hover:h-full z-[11] flex justify-center flex-col items-center gap-3 px-3 md:opacity-100 md:justify-between md:flex-row md:h-16 md:top-28 md:scale-100 md:rounded-t-none max-sm:opacity-100 max-sm:justify-between max-sm:flex-row max-sm:h-14 max-sm:top-28 max-sm:scale-100 max-sm:rounded-t-none'>
                                 <h3 className='text-white text-2xl'>ToDo List</h3>
                                 <div>
                                     {/* <button className='bg-text1 text-black hover:bg-black hover:text-white py-1 px-4 font-bold rounded-lg border-none outline-none cursor-pointer'>Description</button> */}

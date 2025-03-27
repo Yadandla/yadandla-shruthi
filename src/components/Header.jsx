@@ -7,7 +7,7 @@ import { RiContactsFill } from "react-icons/ri";
 const Header = () => {
 
     return (
-        <div className='bg-black p-2 fixed lg:top-0 lg:right-0 lg:w-[5%] lg:h-full lg:overflow-auto md:w-full max-sm:w-full md:-bottom-1 max-sm:-bottom-1 md:h-20 lg:border-l-2 lg:border-[#f9c22e24] md:border-t-2 md:border-[#f9c22e24] max-sm:h-16 max-sm:border-t-2 max-sm:border-[#f9c22e24] max-sm:px-1'>
+        <div className='bg-black p-2 fixed lg:top-0 lg:right-0 lg:w-[5%] lg:h-full lg:overflow-auto md:w-full max-sm:w-full md:-bottom-1 max-sm:-bottom-1 md:h-20 lg:border-l-2 lg:border-[#f9c22e24] md:border-t-2 md:border-[#f9c22e24] max-sm:h-16 max-sm:border-t-2 max-sm:border-[#f9c22e24] max-sm:px-1 z-[2] lg:z-0 md:z-[11] max-sm:z-[11]'>
 
             {/* Navbar's Part starts */}
             <ul className='flex lg:justify-evenly md:justify-evenly max-sm:justify-around lg:items-center md:items-center max-sm:items-end lg:flex-col text-white h-full nav-links relative md:flex-row'>

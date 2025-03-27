@@ -39,21 +39,21 @@ const Resume = () => {
                         <h2 className='text-white text-2xl'>Education</h2>
                     </div>
 
-                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-7 md:pl-10 max-sm:pl-9'>
+                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Government Degree College, Autonomous</h3>
                         <p className='text-slate-300'>2019 - 2022</p>
                         <p className='text-slate-300'>Bachelors of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
                         <p className='text-slate-300'>Grade: 9.41 </p>
                     </div>
 
-                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-7 md:pl-10 max-sm:pl-9'>
+                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Gurukrupa Junior College</h3>
                         <p className='text-slate-300'>2017 - 2019</p>
                         <p className='text-slate-300'>MPC - Mathematics, Physics and Chemistry</p>
                         <p className='text-slate-300'>Grade: 91.6%</p>
                     </div>
 
-                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-7 md:pl-10 max-sm:pl-9 pb-0'>
+                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9 pb-0'>
                         <h3 className='text-white text-lg'>Orange Grammar School</h3>
                         <p className='text-slate-300'>2016 - 2017</p>
                         <p className='text-slate-300'>Grade: 9.0</p>
@@ -74,19 +74,19 @@ const Resume = () => {
                         <h2 className='text-white text-2xl'>Experience</h2>
                     </div>
 
-                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-7 md:pl-10 max-sm:pl-9 pb-0'>
+                    <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9 pb-0'>
                         <h3 className='text-white text-lg'>Hi-Techsters IT Services Pvt Ltd.</h3>
                         <p className='text-slate-300'>2023-2024</p>
                         <p className='text-slate-300'>Role: Web Developer</p>
                         <div>
                             <ul className='text-slate-300'>
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-9.5 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-12 md:before:-left-10 max-sm:before:-left-9'>Developed responsive and user-friendly websites.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed responsive and user-friendly websites.</li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-9.5 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-12 md:before:-left-10 max-sm:before:-left-9'>Ensuring seamless integration of visuals and functionality by collaborating with backend developers and designers. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Ensuring seamless integration of visuals and functionality by collaborating with backend developers and designers. </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-9.5 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-12 md:before:-left-10 max-sm:before:-left-9'>Updated website content and features as per client requirements.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Updated website content and features as per client requirements.</li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-9.5 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-12 md:before:-left-10 max-sm:before:-left-9'>Monitored website performance, and attended client meetings to provide updates and gather feedback.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Monitored website performance, and attended client meetings to provide updates and gather feedback.</li>
                             </ul>
                         </div>
                     </div>
@@ -106,35 +106,35 @@ const Resume = () => {
                         <h2 className='text-white text-2xl'>My Skills</h2>
                     </div>
                     <div className='grid lg:grid-cols-4 md:grid-cols-3 p-2'>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaHtml5 /></span>
                             <h3 className='text-xl'>HTML</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><IoLogoCss3 /></span>
                             <h3 className='text-xl'>CSS</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><IoLogoJavascript /></span>
                             <h3 className='text-xl'>JavaScript</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><RiReactjsLine /></span>
                             <h3 className='text-xl'>React Js</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><SiTailwindcss /></span>
                             <h3 className='text-xl'>Tailwind CSS</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaBootstrap /></span>
                             <h3 className='text-xl'>Bootstrap</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><DiJqueryLogo /></span>
                             <h3 className='text-xl'>jQuery</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 hover:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaGitAlt /></span>
                             <h3 className='text-xl'>Git</h3>
                         </div>
