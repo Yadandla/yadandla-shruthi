@@ -13,8 +13,8 @@ body {
     --drop-shadow-3xl: 0px 0px 5px #f9c22e;
     --drop-shadow-4xl: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     --breakpoint-*: initial;
-    --breakpoint-sm: 640px;
-    --breakpoint-md: 768px;
+    --breakpoint-sm: 699px;
+    --breakpoint-md: 700px;
     --breakpoint-lg: 1024px;
     /* --background-bg-conic: conic-gradient(from var(--angle), transparent 70%, blue); */
 
