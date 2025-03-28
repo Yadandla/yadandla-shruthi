@@ -23,7 +23,7 @@ const Contact = () => {
                     <form action="https://formsubmit.co/yadandlashruthi97@gmail.com" method='POST'>
                         <h2 className='py-4 text-2xl font-bold text-white'>Let's make something awesome together!</h2>
                         <input type="hidden" name="_subject" value="New submission from Portfolio" />
-                        <input type="hidden" name="_next" value="http://localhost:5173/thankyou" />
+                        <input type="hidden" name="_next" value="https://yadandla-shruthi.vercel.app/thankyou" />
                         <div className='grid lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1'>
                             <div className='flex justify-start items-center gap-3 m-3 border-b-2 border-text1 p-2 rounded-lg'>
                                 <span className='text-white'><RiContactsFill /></span>
