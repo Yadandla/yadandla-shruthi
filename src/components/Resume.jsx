@@ -12,12 +12,7 @@ import { FaGitAlt } from "react-icons/fa";
 const Resume = () => {
 
     const handleResumeFile = () => {
-        window.open("/pdfs/yadandla-shruthi.pdf", "_blank");
-    }
-
-
-    const handleCvFile = () => {
-        window.open("/pdfs/yadandla-shruthi.pdf", "_blank");
+        window.open("/pdfs/yadandla_shruthi_resume.pdf", "_blank");
     }
 
 
@@ -144,7 +139,6 @@ const Resume = () => {
                 {/* Resume and CV Files */}
                 <div className='flex max-sm:flex-col gap-4'>
                     <button className='bg-text1 text-black font-bold text-xl border-2 border-white px-4 py-2 cursor-pointer w-64 rounded-sm hover:bg-black hover:text-text1' onClick={handleResumeFile}>Download Resume</button>
-                    <button className='bg-text1 text-black font-bold text-xl border-2 border-white px-4 py-2 cursor-pointer w-64 rounded-sm hover:bg-black hover:text-text1' onClick={handleCvFile}>Download CV</button>
                 </div>
             </div>
         </div>
