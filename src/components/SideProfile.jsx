@@ -42,7 +42,7 @@ const SideProfile = () => {
                     {/* social media links starts */}
                     <div className='flex justify-center pt-3 pb-6 max-sm:pb-3 lg:visible md:invisible'>
                         <ul className='text-white flex gap-6'>
-                            <li><a href='https://www.linkedin.com/in/yadandla-shruthi-72aaa724b/' target='_blank'><img src="/images/linkedin.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
+                            <li><a href='https://www.linkedin.com/in/yadandla-shruthi/' target='_blank'><img src="/images/linkedin.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
 
                             <li><a href='https://wa.me/919000263698' target='_blank'><img src="/images/whatsapp.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
                             {/* 
@@ -103,7 +103,7 @@ const SideProfile = () => {
                     {/* displaying in mobile & tablet, laptop or desktop - hidden */}
                     <div className='flex justify-start py-6 pl-8 lg:hidden md:block max-sm:hidden'>
                         <ul className='text-white flex gap-6'>
-                            <li><a href='https://www.linkedin.com/in/yadandla-shruthi-72aaa724b/' target='_blank'><img src="/images/linkedin.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
+                            <li><a href='https://www.linkedin.com/in/yadandla-shruthi/' target='_blank'><img src="/images/linkedin.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
                             <li><a href='https://wa.me/919000263698' target='_blank'><img src="/images/whatsapp.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
                             {/* <li><a href='https://www.instagram.com/yadandlashruthi/' target='_blank'><img src="/images/instagram.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li> */}
                             <li><a href='https://github.com/Yadandla' target='_blank'><BsGithub className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
