@@ -25,7 +25,7 @@ const About = () => {
                 <p>What excites me about my work is solving complex challenges and finding solutions through collaboration with talented individuals. Working with other developers fuels my creativity as we share ideas and tackle challenges together. I value teamwork and continuous improvement, always seeking ways to grow. The ever-evolving nature of technology motivates me to explore new frameworks and tools, making every project an opportunity to enhance my skills and contribute to the web development community.</p>
 
 
-                <p>Feel free to explore my <Link to="/portfolio" className='text-text1'>Portfolio</Link> page to see my work! My projects may look simple, but they showcase my skills in mastering new technologies. If you’d like to connect, reach out to me via the <Link to="/contact" className='text-text1'>Contact</Link> page—I’d love to hear from you!</p>
+                <p>Feel free to explore my <Link to="/portfolio" className='text-text1' target='_blank'>Portfolio</Link> page to see my work! My projects may look simple, but they showcase my skills in mastering new technologies. If you’d like to connect, reach out to me via the <Link to="/contact" className='text-text1' target='_blank'>Contact</Link> page—I’d love to hear from you!</p>
 
             </div>
             {/* All about me ends */}
