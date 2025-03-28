@@ -7,9 +7,9 @@ import { RiContactsFill } from "react-icons/ri";
 const Header = () => {
 
     return (
-        <div className='bg-black p-2 fixed lg:top-0 lg:right-0 lg:w-[5%] lg:h-full lg:overflow-auto md:w-full max-sm:w-full md:-bottom-1 max-sm:-bottom-1 md:h-20 lg:border-l-2 lg:border-[#f9c22e24] md:border-t-2 md:border-[#f9c22e24] max-sm:h-16 max-sm:border-t-2 max-sm:border-[#f9c22e24] max-sm:px-1 z-[2] lg:z-0 md:z-[11] max-sm:z-[11]'>
+        <div className='bg-black p-2 fixed lg:top-0 lg:right-0 lg:w-[5%] lg:h-full lg:overflow-hidden md:w-full max-sm:w-full md:-bottom-1 max-sm:-bottom-1 md:h-20 lg:border-l-2 lg:border-[#f9c22e24] md:border-t-2 md:border-[#f9c22e24] max-sm:h-16 max-sm:border-t-2 max-sm:border-[#f9c22e24] max-sm:px-1 z-[2] lg:z-0 md:z-[11] max-sm:z-[11]'>
 
-            <div>
+            <div className='lg:block md:hidden max-sm:hidden mx-auto my-0 w-10 h-10'>
                 <Link to='/'>
                     <img src="/images/logo-2.png" alt="profile" className='rounded-3xl w-10 h-10' />
                 </Link>

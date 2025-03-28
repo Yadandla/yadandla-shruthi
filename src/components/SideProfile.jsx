@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { BsGithub } from "react-icons/bs";
 import { IoMdContact } from "react-icons/io";
 import { FaXmark } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 const SideProfile = () => {
 
@@ -10,11 +11,20 @@ const SideProfile = () => {
     return (
         <div className='bg-black p-6 max-sm:p-0 md:p-0 lg:p-6 fixed top-0 left-0 lg:h-full lg:w-[25%] overflow-auto md:overflow-hidden  max-sm:overflow-hidden md:w-full lg:border-r-2 lg:border-[#f9c22e24] md:border-b-2 md:border-[#f9c22e24] max-sm:w-full max-sm:border-b-2 max-sm:border-[#f9c22e24] max-sm:block md:z-[1111] max-sm:z-[1111]'>
 
-            {/* cursor trail starts */}
-            <div className='text-right lg:hidden md:block max-sm:block'>
-                <button className='text-text1 text-3xl p-3 max-sm:p-1 max-sm:text-2xl' onClick={() => setSideBarOpen(!sideBarOpen)}>{sideBarOpen ? <FaXmark /> : <IoMdContact />}</button>
+            <div className='flex justify-between items-center'>
+                {/* logo */}
+                <div className='lg:hidden'>
+                    <Link to='/'>
+                        <img src="/images/logo-2.png" alt="profile" className='rounded-3xl w-10 h-10' />
+                    </Link>
+                </div>
+
+                {/* cursor trail starts */}
+                <div className='lg:hidden md:block max-sm:block'>
+                    <button className='text-text1 text-3xl p-3 max-sm:p-1 max-sm:text-2xl' onClick={() => setSideBarOpen(!sideBarOpen)}>{sideBarOpen ? <FaXmark /> : <IoMdContact />}</button>
+                </div>
+                {/* cursor trail ends */}
             </div>
-            {/* cursor trail ends */}
 
             {/* profile info starts */}
             <div className={`lg:block md:flex md:justify-evenly ${sideBarOpen ? "md:h-96 max-sm:h-screen max-sm:p-1 max-sm:pt-0 max-sm:overflow-auto" : "md:h-0 max-sm:h-0 max-sm:overflow-hidden"} transition-all duration-700`}>
