@@ -37,7 +37,7 @@ const Resume = () => {
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Government Degree College, Autonomous</h3>
                         <p className='text-slate-300'>2019 - 2022</p>
-                        <p className='text-slate-300'>Bachelors of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
+                        <p className='text-slate-300'>Bachelor of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
                         <p className='text-slate-300'>Grade: 9.41 </p>
                     </div>
 
@@ -81,7 +81,9 @@ const Resume = () => {
 
                                 <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Updated website content and features as per client requirements.</li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Monitored website performance, and attended client meetings to provide updates and gather feedback.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Monitored website performance</li>
+
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Attended client meetings to provide updates and gather feedback.</li>
                             </ul>
                         </div>
                     </div>
