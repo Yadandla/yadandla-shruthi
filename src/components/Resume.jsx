@@ -103,35 +103,35 @@ const Resume = () => {
                         <h2 className='text-white text-2xl'>My Skills</h2>
                     </div>
                     <div className='grid lg:grid-cols-4 md:grid-cols-3 p-2'>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2  hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaHtml5 /></span>
                             <h3 className='text-xl'>HTML</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><IoLogoCss3 /></span>
                             <h3 className='text-xl'>CSS</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><IoLogoJavascript /></span>
                             <h3 className='text-xl'>JavaScript</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><RiReactjsLine /></span>
                             <h3 className='text-xl'>React Js</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><SiTailwindcss /></span>
                             <h3 className='text-xl'>Tailwind CSS</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaBootstrap /></span>
                             <h3 className='text-xl'>Bootstrap</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><DiJqueryLogo /></span>
                             <h3 className='text-xl'>jQuery</h3>
                         </div>
-                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e1f] m-2 rounded-tl-2xl rounded-br-2xl rounded-tr-2xl hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaGitAlt /></span>
                             <h3 className='text-xl'>Git</h3>
                         </div>

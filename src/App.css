@@ -11,34 +11,12 @@ body {
     --color-text1: #f9c22e;
     --drop-shadow-2xl: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     --drop-shadow-3xl: 0px 0px 5px #f9c22e;
-    --drop-shadow-4xl: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --drop-shadow-4xl: 5px 5px 15px grey, -5px -5px 15px grey;
     --breakpoint-*: initial;
-    --breakpoint-sm: 699px;
+    --breakpoint-sm: 690px;
     --breakpoint-md: 700px;
     --breakpoint-lg: 1024px;
-    /* --background-bg-conic: conic-gradient(from var(--angle), transparent 70%, blue); */
-
-    /* @keyframes wiggle {
-
-        0%,
-        100% {
-            transform: rotate(-3deg);
-        }
-
-        50% {
-            transform: rotate(3deg);
-        }
-    }
-
-    */
 }
-
-/* Parent div or child div */
-/* @layer components {
-    .prof-info>div {
-        @apply mr-2 text-amber-200
-    }
-} */
 
 /* Any html elements or tags */
 @layer base {
@@ -156,54 +134,3 @@ body {
         width: 10rem;
     }
 }
-
-/* .nav-links li .active::after, .nav-links li .active::before {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: conic-gradient(from var(--angle), transparent 70%, blue);
-    z-index: -1;
-    padding: 1rem;
-    animation: rotate 4s linear infinite;
-}
-
-.nav-links li .active::before {
-    filter: blur(1.5rem);
-    opacity: 0.5rem;
-}
-
-@keyframes rotate {
-    0% {
-        --angle: 0deg;
-    }
-
-    25% {
-        --angle: 30deg;
-    }
-
-    45% {
-        --angle: 60deg;
-    }
-
-    65% {
-        --angle: 160deg;
-    }
-
-    85% {
-        --angle: 260deg;
-    }
-
-    100% {
-        --angle: 360deg;
-    }
-}
-
-@property --angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-} */
