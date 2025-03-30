@@ -31,7 +31,7 @@ const SideProfile = () => {
                 <div className='flex flex-col'>
                     <div className='pt-4 pb-3 flex justify-center'>
                         {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s" alt="profile" className='rounded-3xl lg:w-60 lg:h-60 md:w-72 md:h-72 max-sm:w-64 max-sm:h-64' /> */}
-                        <img src="/images/profile.png" alt="profile" className='rounded-3xl w-60 h-60' />
+                        <img src="/images/profile-avatar.jpg" alt="profile" className='rounded-3xl w-60 h-60' />
                     </div>
 
                     <div className='pt-2 pb-2 text-white text-center'>

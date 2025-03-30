@@ -16,6 +16,7 @@ body {
     --breakpoint-sm: 690px;
     --breakpoint-md: 700px;
     --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1920px;
 }
 
 /* Any html elements or tags */

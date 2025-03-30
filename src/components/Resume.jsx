@@ -38,20 +38,17 @@ const Resume = () => {
                         <h3 className='text-white text-lg'>Government Degree College, Autonomous</h3>
                         <p className='text-slate-300'>2019 - 2022</p>
                         <p className='text-slate-300'>Bachelor of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
-                        <p className='text-slate-300'>Grade: 9.41 </p>
                     </div>
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Gurukrupa Junior College</h3>
                         <p className='text-slate-300'>2017 - 2019</p>
                         <p className='text-slate-300'>MPC - Mathematics, Physics and Chemistry</p>
-                        <p className='text-slate-300'>Grade: 91.6%</p>
                     </div>
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9 pb-0'>
                         <h3 className='text-white text-lg'>Orange Grammar School</h3>
                         <p className='text-slate-300'>2016 - 2017</p>
-                        <p className='text-slate-300'>Grade: 9.0</p>
                     </div>
                 </div>
 
@@ -102,7 +99,7 @@ const Resume = () => {
                         </lord-icon></span>
                         <h2 className='text-white text-2xl'>My Skills</h2>
                     </div>
-                    <div className='grid lg:grid-cols-4 md:grid-cols-3 p-2'>
+                    <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 p-2'>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2  hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaHtml5 /></span>
                             <h3 className='text-xl'>HTML</h3>
