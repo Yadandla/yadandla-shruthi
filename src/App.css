@@ -13,10 +13,11 @@ body {
     --drop-shadow-3xl: 0px 0px 5px #f9c22e;
     --drop-shadow-4xl: 5px 5px 15px grey, -5px -5px 15px grey;
     --breakpoint-*: initial;
-    --breakpoint-sm: 690px;
-    --breakpoint-md: 700px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1920px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
 }
 
 /* Any html elements or tags */
