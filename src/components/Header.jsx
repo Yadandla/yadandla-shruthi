@@ -52,7 +52,7 @@ const Header = () => {
                             colors="primary:#f9c22e,secondary:#f9c22e"
                             style={{ width: "40px", height: "40px" }}>
                         </lord-icon>
-                        <span className='invisible group-hover:visible scale-0 group-hover:scale-100 transition-all duration-700 text-sm'>Let's talk</span>
+                        <span className='invisible group-hover:visible scale-0 group-hover:scale-100 transition-all duration-700 text-sm 2xl:text-sm lg:text-[10px]'>Let's talk</span>
                     </a>
                 </li>
             </ul>
