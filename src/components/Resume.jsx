@@ -36,19 +36,19 @@ const Resume = () => {
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Government Degree College, Autonomous</h3>
-                        <p className='text-slate-300'>2019 - 2022</p>
-                        <p className='text-slate-300'>Bachelor of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
+                        <p className='text-white'>2019 - 2022</p>
+                        <p className='text-white'>Bachelor of Science - MSCs [Mathematics, Statistics and Computer Science]</p>
                     </div>
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9'>
                         <h3 className='text-white text-lg'>Gurukrupa Junior College</h3>
-                        <p className='text-slate-300'>2017 - 2019</p>
-                        <p className='text-slate-300'>MPC - Mathematics, Physics and Chemistry</p>
+                        <p className='text-white'>2017 - 2019</p>
+                        <p className='text-white'>MPC - Mathematics, Physics and Chemistry</p>
                     </div>
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9 pb-0'>
                         <h3 className='text-white text-lg'>Orange Grammar School</h3>
-                        <p className='text-slate-300'>2016 - 2017</p>
+                        <p className='text-white'>2016 - 2017</p>
                     </div>
                 </div>
 
@@ -68,10 +68,10 @@ const Resume = () => {
 
                     <div className='border-l-2 border-gray-500 relative after:absolute after:content-["_"] after:top-0 after:-left-1.5 after:w-2.5 after:h-2.5 after:bg-text1 after:rounded-full p-5 pt-0 lg:pl-9 md:pl-10 max-sm:pl-9 pb-0'>
                         <h3 className='text-white text-lg'>Hi-Techsters IT Services Pvt Ltd.</h3>
-                        <p className='text-slate-300'>2023-2024</p>
-                        <p className='text-slate-300'>Role: Web Developer</p>
+                        <p className='text-white'>2023-2024</p>
+                        <p className='text-white'>Role: Web Developer</p>
                         <div>
-                            <ul className='text-slate-300'>
+                            <ul className='text-white'>
                                 <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed responsive and user-friendly websites.</li>
 
                                 <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Ensuring seamless integration of visuals and functionality by collaborating with backend developers and designers. </li>
