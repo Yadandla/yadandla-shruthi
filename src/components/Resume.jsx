@@ -99,7 +99,7 @@ const Resume = () => {
                         </lord-icon></span>
                         <h2 className='text-white text-2xl'>My Skills</h2>
                     </div>
-                    <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 p-2'>
+                    <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 p-2 gap-2'>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2  hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
                             <span className='text-4xl'><FaHtml5 /></span>
                             <h3 className='text-xl'>HTML</h3>

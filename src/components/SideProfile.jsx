@@ -9,7 +9,7 @@ const SideProfile = () => {
     const [sideBarOpen, setSideBarOpen] = useState(false);
 
     return (
-        <div className='bg-black p-6 max-sm:p-0 md:p-0 lg:p-6 fixed top-0 left-0 lg:h-full lg:w-[25%] overflow-auto md:overflow-hidden  max-sm:overflow-hidden md:w-full lg:border-r-2 lg:border-[#f9c22e24] md:border-b-2 md:border-[#f9c22e24] max-sm:w-full max-sm:border-b-2 max-sm:border-[#f9c22e24] max-sm:block md:z-[1111] max-sm:z-[1111]'>
+        <div className='bg-black p-6 max-sm:p-0 md:p-0 lg:p-6 fixed top-0 left-0 lg:h-full lg:w-[25%] lg:overflow-auto md:overflow-hidden  max-sm:overflow-hidden md:w-full lg:border-r-2 lg:border-[#f9c22e24] md:border-b-2 md:border-[#f9c22e24] max-sm:w-full max-sm:border-b-2 max-sm:border-[#f9c22e24] max-sm:block md:z-[1111] max-sm:z-[1111]'>
 
             <div className='flex justify-between items-center'>
                 {/* logo */}
