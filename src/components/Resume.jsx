@@ -12,7 +12,7 @@ import { FaGitAlt } from "react-icons/fa";
 const Resume = () => {
 
     const handleResumeFile = () => {
-        window.open("/pdfs/yadandla_shruthi_resume.pdf", "_blank");
+        window.open("/pdfs/Yadandla-Shruthi-Resume.pdf", "_blank");
     }
 
 
@@ -72,15 +72,15 @@ const Resume = () => {
                         <p className='text-white'>Role: Web Developer</p>
                         <div>
                             <ul className='text-white'>
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed responsive and user-friendly websites.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed 5+ responsive websites with React.js & Bootstrap, improving mobile load speed by 40% using
+                                    lazy loading. </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Ensuring seamless integration of visuals and functionality by collaborating with backend developers and designers. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Collaborated with backend developers & designers, ensuring seamless data flow and UI consistency. </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Updated website content and features as per client requirements.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Optimized Lighthouse scores from 60 to 90+ by reducing render-blocking resources and compressing
+                                    assets. </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Monitored website performance</li>
-
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Attended client meetings to provide updates and gather feedback.</li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Conducted client meetings to gather feedback, leading to a 30% reduction in revision requests. </li>
                             </ul>
                         </div>
                     </div>
