@@ -8,6 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa6";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiLighthouse } from "react-icons/si";
 
 const Resume = () => {
 
@@ -72,15 +74,15 @@ const Resume = () => {
                         <p className='text-white'>Role: Web Developer</p>
                         <div>
                             <ul className='text-white'>
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed 5+ responsive websites with React.js & Bootstrap, improving mobile load speed by 40% using
-                                    lazy loading. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Developed 5+ responsive websites with Tailwind CSS & Bootstrap, improving mobile load speed by 40% using lazy loading.</li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Collaborated with backend developers & designers, ensuring seamless data flow and UI consistency. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Collaborated with backend developers & designers, ensuring seamless data flow and UI consistency.  </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Optimized Lighthouse scores from 60 to 90+ by reducing render-blocking resources and compressing
-                                    assets. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Optimized Lighthouse scores from 60 to 90+ by reducing render-blocking resources and compressing assets. </li>
 
-                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Conducted client meetings to gather feedback, leading to a 30% reduction in revision requests. </li>
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>Conducted client meetings to gather feedback, leading to a 30% reduction in revision requests.  </li>
+
+                                <li className='py-1 relative before:absolute before:content-["_"] lg:before:w-8.9 md:before:w-7.5 max-sm:before:w-6.5 before:h-[1px] before:bg-text1 before:top-4 lg:before:-left-9 md:before:-left-10 max-sm:before:-left-9'>I have actively collaborated with the SEO team to pinpoint and address website issues, successfully resolving 90% of them. I took the initiative to enhance search engine visibility by adding critical meta content.  </li>
                             </ul>
                         </div>
                     </div>
@@ -101,36 +103,50 @@ const Resume = () => {
                     </div>
                     <div className='grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 p-2 gap-2'>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2  hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><FaHtml5 /></span>
+                            <span className='text-2xl'><FaHtml5 /></span>
                             <h3 className='text-xl'>HTML</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><IoLogoCss3 /></span>
+                            <span className='text-2xl'><IoLogoCss3 /></span>
                             <h3 className='text-xl'>CSS</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><IoLogoJavascript /></span>
+                            <span className='text-2xl'><IoLogoJavascript /></span>
                             <h3 className='text-xl'>JavaScript</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><RiReactjsLine /></span>
+                            <span className='text-2xl'><RiReactjsLine /></span>
                             <h3 className='text-xl'>React Js</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><SiTailwindcss /></span>
+                            <span className='text-2xl'><SiTailwindcss /></span>
                             <h3 className='text-xl'>Tailwind CSS</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><FaBootstrap /></span>
+                            <span className='text-2xl'><FaBootstrap /></span>
                             <h3 className='text-xl'>Bootstrap</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><DiJqueryLogo /></span>
+                            <span className='text-2xl'><DiJqueryLogo /></span>
                             <h3 className='text-xl'>jQuery</h3>
                         </div>
                         <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
-                            <span className='text-4xl'><FaGitAlt /></span>
+                            <span className='text-2xl'><FaGitAlt /></span>
                             <h3 className='text-xl'>Git</h3>
+                        </div>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                            <span className='text-2xl'><FaGithub /></span>
+                            <h3 className='text-xl'>GitHub</h3>
+                        </div>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                            <span className='text-2xl'><SiLighthouse /></span>
+                            <h3 className='text-xl'>Lighthouse</h3>
+                        </div>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                            <h3 className='text-xl'>Responsive Design</h3>
+                        </div>
+                        <div className='text-white flex justify-start items-center gap-2 w-52 h-10 px-5 py-7 border-[1px] border-[#f9c22e42] m-2 hover:border-text1 active:border-text1 hover:shadow-sm active:shadow-sm shadow-text1'>
+                            <h3 className='text-xl'>Web Optimization </h3>
                         </div>
                     </div>
                 </div>
