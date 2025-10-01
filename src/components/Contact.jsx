@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { RiContactsFill } from "react-icons/ri";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -6,11 +6,11 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Contact = () => {
 
-    const [submitBtn, setSubmitBtn] = useState("Send Message");
+    // const [submitBtn, setSubmitBtn] = useState("Send Message");
 
-    const handleBtn = () => {
-        document.querySelector('form').checkValidity() && setSubmitBtn("Sending...");
-    }
+    // const handleBtn = () => {
+    //     document.querySelector('form').checkValidity() && setSubmitBtn("Sending...");
+    // }
 
     return (
         <div className='first-div'>
@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
 
                         <div className='m-3 p-2'>
-                            <button className='relative border-2 border-white outline-none py-2 px-5 rounded-sm text-white flex justify-center items-center gap-2 z-[1] before:transition-all before:duration-700 before:absolute before:content-["_"] before:top-0 before:left-0 before:w-0 before:h-full before:bg-text1 before:-z-[1] hover:before:w-full w-52 cursor-pointer before:rounded font-bold' onClick={handleBtn}><span>{submitBtn}</span> <span><FaLocationArrow /></span></button>
+                            <button className='relative border-2 border-white outline-none py-2 px-5 rounded-sm text-white flex justify-center items-center gap-2 z-[1] before:transition-all before:duration-700 before:absolute before:content-["_"] before:top-0 before:left-0 before:w-0 before:h-full before:bg-text1 before:-z-[1] hover:before:w-full w-52 cursor-pointer before:rounded font-bold'>Send Message <span><FaLocationArrow /></span></button>
                         </div>
                     </form>
                 </div>
