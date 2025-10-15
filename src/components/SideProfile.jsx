@@ -67,7 +67,7 @@ const SideProfile = () => {
                             <p>yadandlashruthi97@gmail.com</p>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <div>
                             <lord-icon src="https://cdn.lordicon.com/tftaqjwp.json"
                                 trigger="loop"
@@ -79,7 +79,7 @@ const SideProfile = () => {
                             <h2>Phone</h2>
                             <p>+91 9000263698</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div>
                         <div>
                             <lord-icon
