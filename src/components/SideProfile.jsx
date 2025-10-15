@@ -31,7 +31,7 @@ const SideProfile = () => {
                 <div className='flex flex-col'>
                     <div className='pt-4 flex justify-center w-44 mx-auto my-0 rounded-xl'>
                         {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s" alt="profile" className='rounded-3xl lg:w-60 lg:h-60 md:w-72 md:h-72 max-sm:w-64 max-sm:h-64' /> */}
-                        <img src="/images/pic1.png" alt="profile" className='w-44 h-64 rounded-lg p-1 pb-0 border-1 border-white/40 shadow-3xl' />
+                        <img src="/images/pic1.png" alt="profile" className='w-44 h-64 rounded-lg p-1 pb-0 border-1 border-white/40 shadow-3xl user-select-none pointer-events-none' />
                     </div>
 
                     <div className='pt-2 pb-2 text-white text-center'>
@@ -100,7 +100,7 @@ const SideProfile = () => {
                     <div className='flex justify-start py-6 pl-8 lg:hidden md:block max-sm:hidden'>
                         <ul className='text-white flex gap-6'>
                             <li><a href='https://www.linkedin.com/in/yadandla-shruthi/' target='_blank'><img src="/images/linkedin.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
-                            <li><a href='https://wa.me/919000263698' target='_blank'><img src="/images/whatsapp.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
+                            {/* <li><a href='https://wa.me/919000263698' target='_blank'><img src="/images/whatsapp.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li> */}
                             {/* <li><a href='https://www.instagram.com/yadandlashruthi/' target='_blank'><img src="/images/instagram.png" className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li> */}
                             <li><a href='https://github.com/Yadandla' target='_blank'><BsGithub className='w-5 h-5 scale-100 hover:scale-125 transition-all duration-500' /></a></li>
                         </ul>
