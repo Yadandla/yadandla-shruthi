@@ -54,7 +54,7 @@ const Portfolio = () => {
 
             {/* Personal projects starts */}
             <div className='py-5'>
-                <h2 className="border-b-2 border-[#f9c22e29] text-xl font-medium p-1 mb-5 text-white rounded-lg w-fit">Featured Work</h2>
+                <h2 className="border-b-2 border-[#f9c22e29] text-xl font-medium p-1 mb-5 text-white rounded-lg w-fit">Featured Works</h2>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8' id="personal">
 
                     {/* Project - 3 starts */}
