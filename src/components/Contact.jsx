@@ -41,7 +41,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='m-3 border-2 border-text1 p-2 rounded-lg'>
-                            <textarea className='w-full outline-none text-white' rows="5" name="message" placeholder='A Few Words...'></textarea>
+                            <textarea className='w-full outline-none text-white' rows="5" name="message" placeholder='Message...'></textarea>
                         </div>
                         <div>
                             <input type="hidden" name="_captcha" value="false" />
