@@ -92,7 +92,7 @@ const SideProfile = () => {
                         </div>
                         <div>
                             <h2>Location</h2>
-                            <p>Siddipet, Telangana, India</p>
+                            <p>Telangana, India</p>
                         </div>
                     </div>
 
